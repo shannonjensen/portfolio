@@ -13,9 +13,6 @@ body {
 h1 {
   letter-spacing: 1px;
   display: inline;
-  position: relative;
-  left: 10%;
-  top: 55px;
   color: black;
   background-color: white;
   padding: 10px 15px;
@@ -28,9 +25,14 @@ h1 {
   background-image: url(https://drive.google.com/uc?export=download&id=0B3s_XPEhp2okRUVScFlpTlJLSnM);
   background-repeat: no-repeat;
   background-position: center center;
-  -webkit-background-size: cover;
-  -moz-background-size:cover;
-  -o-background-size:cover; 
-  background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover; 
+	background-size: cover;
 }
 
+header {
+  position: relative;
+  top: 20%;
+  left: 10%;
+}
