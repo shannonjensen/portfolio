@@ -2,12 +2,14 @@ html {
   font-family: 'Lora', serif;
   height: 100%;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 body {
   background-color: white;
   margin: 0;
   height: 100%;
+  position: relative;
 }
 
 h1 {
@@ -21,7 +23,7 @@ h1 {
 .home-page {
   height: 100%;
   min-height: 100%;
-  background-color: white;
+  background-color: gray;
   background-image: url(https://drive.google.com/uc?export=download&id=0B3s_XPEhp2okRUVScFlpTlJLSnM);
   background-repeat: no-repeat;
   background-position: center center;
@@ -35,4 +37,9 @@ header {
   position: relative;
   top: 20%;
   left: 10%;
+}
+
+.next-page {
+  height: 100%;
+  background-color: tomato;
 }
